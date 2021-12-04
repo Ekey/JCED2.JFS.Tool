@@ -276,6 +276,9 @@ cars\mini\mininpcprops.txt
 cars\mustang67\mustang67npc.cfg
 cars\mustang67\mustang67npc.dat
 cars\mustang67\mustang67npcprops.txt
+cars\mustanggt\mustanggt1.cfg
+cars\mustanggt\mustanggt1.dat
+cars\mustanggt\mustanggt1props.txt
 cars\mustanggt\mustanggtnpc.cfg
 cars\mustanggt\mustanggtnpc.dat
 cars\mustanggt\mustanggtnpcprops.txt
@@ -304,14 +307,19 @@ cars\vwr32\vwr32npcprops.txt
 carsetups\char01_200sx.dat
 carsetups\char01_audi_tt.dat
 carsetups\char01_audi_tt07.dat
+carsetups\char01_evo_10.dat
 carsetups\char01_rx8.dat
+carsetups\char02_300zx.dat
 carsetups\char02_crx.dat
 carsetups\char02_focus_svt.dat
 carsetups\char02_fto.dat
 carsetups\char03_audi_tt.dat
 carsetups\char03_g6.dat
+carsetups\char03_s2000.dat
 carsetups\char03_torino.dat
+carsetups\char04_astra_vxr.dat
 carsetups\char04_rsx.dat
+carsetups\char04_sky_r32.dat
 carsetups\char04_tiburon.dat
 carsetups\char04_trueno.dat
 carsetups\char05_mustang99.dat
@@ -319,14 +327,18 @@ carsetups\char05_mx5.dat
 carsetups\char05_scion.dat
 carsetups\char06_c2.dat
 carsetups\char06_cliov6.dat
+carsetups\char06_evo.dat
 carsetups\char06_g6.dat
+carsetups\char06_sky_r33.dat
 carsetups\char07_gtr.dat
 carsetups\char07_mini.dat
 carsetups\char07_rx8.dat
 carsetups\char08_eclipse_06.dat
 carsetups\char08_gtr.dat
 carsetups\char08_mr2_04.dat
+carsetups\char09_mr2_04.dat
 carsetups\char13_trueno.dat
+carsetups\char16_tiburon.dat
 carsetups\player01_ursula.dat
 celeanimcomponentdef.txt
 celeb_caballero.ddt
@@ -383,6 +395,7 @@ char08.def
 char09.def
 char10.def
 char13.def
+char16.def
 char4jacket.jsm
 characters.txt
 cheqflag_06_cheqs.ddt
@@ -398,6 +411,7 @@ clothbballtop.ddt
 clothbballtopnormal.ddt
 clothchar13jacket.ddt
 clothchar13jacketnormal.ddt
+clothchar16jacket.ddt
 clothchar3jacket.ddt
 clothchar4jacket.ddt
 clothchar4jacketnormal.ddt
@@ -1043,7 +1057,11 @@ dna_ultracool_4.ddt
 dna_ultracool_4_lightning.ddt
 drift1.bcp
 drift1_aitweaks.txt
+drift2.bcp
+drift2_aitweaks.txt
 ducking.txt
+ed.ddt
+ednormal.ddt
 effectsdefs.txt
 env_alps.dds
 env_alps_drift1.dds
@@ -1052,6 +1070,7 @@ env_london.dds
 env_paris.dds
 env_rome.dds
 env_tokyo.dds
+env_tokyo_drift1.dds
 eve_dry.atm
 eyeblack.ddt
 eyebluegrey.ddt
@@ -1078,6 +1097,7 @@ f_chall_perfectlap_bg.ddt
 f_chall_speed_bg.ddt
 f_circuit_bg_alps.ddt
 f_circuit_bg_ita.ddt
+f_circuit_bg_jap.ddt
 f_circuit_bg_uk.ddt
 f_circuit_bg_usa.ddt
 f_circuit_champ_bg.ddt
@@ -1207,6 +1227,7 @@ f_disc_circuit_jap_eng.ddt
 f_disc_circuit_jap_fre.ddt
 f_disc_circuit_jap_ger.ddt
 f_disc_circuit_jap_ita.ddt
+f_disc_circuit_jap_rus.ddt
 f_disc_circuit_jap_spa.ddt
 f_disc_circuit_lms_alps_eng.ddt
 f_disc_circuit_lms_alps_fre.ddt
@@ -1368,6 +1389,7 @@ f_disc_drift_race_jap_eng.ddt
 f_disc_drift_race_jap_fre.ddt
 f_disc_drift_race_jap_ger.ddt
 f_disc_drift_race_jap_ita.ddt
+f_disc_drift_race_jap_rus.ddt
 f_disc_drift_race_jap_spa.ddt
 f_disc_drift_race_pinkslip_eng.ddt
 f_disc_drift_race_pinkslip_fre.ddt
@@ -1460,6 +1482,7 @@ f_drift_race_bg_alps.ddt
 f_drift_race_bg_aus.ddt
 f_drift_race_bg_fre.ddt
 f_drift_race_bg_ita.ddt
+f_drift_race_bg_jap.ddt
 f_drift_race_bg_uk.ddt
 f_drift_race_champ_bg.ddt
 f_drift_race_pinkslip_bg.ddt
@@ -2258,6 +2281,7 @@ markers\cammarker_paris.txt
 markers\cammarker_rome.txt
 markers\cammarker_tokyo.txt
 markers\cammarker_tokyo_circuit2.txt
+markers\cammarker_tokyo_drift2.txt
 markers\hubscene_1car.txt
 markers\hubscene_2car.txt
 markers\hubscene_3car.txt
@@ -2266,19 +2290,27 @@ markers\hubscene_selectcar.txt
 markers\marker_gridpreview_alps_alps_masterworld1.txt
 markers\marker_gridpreview_alps_drift1_drift1.txt
 markers\marker_gridpreview_downtown sanfrancisco_masterworld_route1.txt
+markers\marker_gridpreview_downtown sanfrancisco_masterworld_route2.txt
 markers\marker_gridpreview_downtown sanfrancisco_masterworld_route4.txt
+markers\marker_gridpreview_downtown sanfrancisco_masterworld_route6.txt
 markers\marker_gridpreview_london_circuit1.txt
 markers\marker_gridpreview_london_circuit3.txt
 markers\marker_gridpreview_london_circuit5.txt
 markers\marker_gridpreview_paris_drift1.txt
 markers\marker_gridpreview_rome_rome_masterworld_route1.txt
 markers\marker_gridpreview_rome_rome_masterworld_route2.txt
+markers\marker_gridpreview_rome_rome_masterworld_route3.txt
 markers\marker_gridpreview_tokyo_circuit2.txt
+markers\marker_gridpreview_tokyo_circuit3.txt
+markers\marker_gridpreview_tokyo_drift2_drift2.txt
 markers\marker_pinkslippodium_tokyo.txt
 markers\marker_racepodium.txt
 markers\tweakable_markers.txt
 masterworld_route1_aitweaks.txt
+masterworld_route2.bcp
+masterworld_route2_aitweaks.txt
 masterworld_route4_aitweaks.txt
+masterworld_route6.bcp
 mats\ap_snow_tile.pmd
 mats\dna_insane_1.pmd
 mats\dna_insane_2.pmd
@@ -2579,6 +2611,7 @@ mesh\300zx_boot_vs1.d9m
 mesh\300zx_brklight_l.d9m
 mesh\300zx_brklight_r.d9m
 mesh\300zx_chass.d9m
+mesh\300zx_chass_ocd.ocd
 mesh\300zx_door_fl.d9m
 mesh\300zx_door_fr.d9m
 mesh\300zx_doorskin_fl.d9m
@@ -2652,9 +2685,13 @@ mesh\300zx_spoiler_vs94.d9m
 mesh\300zx_spoiler_vs95.d9m
 mesh\300zx_sskirt_l.d9m
 mesh\300zx_sskirt_r.d9m
+mesh\300zx_sskirt_vs19_l.d9m
+mesh\300zx_sskirt_vs19_r.d9m
 mesh\300zx_stwheel.d9m
 mesh\300zx_wmir_l.d9m
 mesh\300zx_wmir_r.d9m
+mesh\300zx_wmir_vs3_l.d9m
+mesh\300zx_wmir_vs3_r.d9m
 mesh\350z_bonnet.d9m
 mesh\350z_bonnet_vs28.d9m
 mesh\350z_bonnet_vs31.d9m
@@ -3051,6 +3088,7 @@ mesh\astra_vxr_boot_vs1.d9m
 mesh\astra_vxr_brklight_l.d9m
 mesh\astra_vxr_brklight_r.d9m
 mesh\astra_vxr_chass.d9m
+mesh\astra_vxr_chass_ocd.ocd
 mesh\astra_vxr_door_fl.d9m
 mesh\astra_vxr_door_fr.d9m
 mesh\astra_vxr_doorskin_fl.d9m
@@ -3107,6 +3145,8 @@ mesh\astra_vxr_spoiler_vs73.d9m
 mesh\astra_vxr_spoiler_vs74.d9m
 mesh\astra_vxr_sskirt_l.d9m
 mesh\astra_vxr_sskirt_r.d9m
+mesh\astra_vxr_sskirt_vs6_l.d9m
+mesh\astra_vxr_sskirt_vs6_r.d9m
 mesh\astra_vxr_stwheel.d9m
 mesh\astra_vxr_wmir_l.d9m
 mesh\astra_vxr_wmir_r.d9m
@@ -3500,6 +3540,8 @@ mesh\brake_disc_drum_l.d9m
 mesh\brake_disc_drum_r.d9m
 mesh\bucket_seat_fl.d9m
 mesh\bucket_seat_fr.d9m
+mesh\bucket_seat_omp_154_fl.d9m
+mesh\bucket_seat_omp_154_fr.d9m
 mesh\bucket_seat_omp_155_fl.d9m
 mesh\bucket_seat_omp_155_fr.d9m
 mesh\bucket_seat_omp_157_fl.d9m
@@ -4655,6 +4697,7 @@ mesh\evo_10_boot_vs1.d9m
 mesh\evo_10_brklight_l.d9m
 mesh\evo_10_brklight_r.d9m
 mesh\evo_10_chass.d9m
+mesh\evo_10_chass_ocd.ocd
 mesh\evo_10_door_fl.d9m
 mesh\evo_10_door_fr.d9m
 mesh\evo_10_door_rl.d9m
@@ -6129,6 +6172,7 @@ mesh\mats\brake_disc.pmd
 mesh\mats\brake_disc_blur.pmd
 mesh\mats\brake_disc_drum.pmd
 mesh\mats\bucket_seat.pmd
+mesh\mats\bucket_seat_omp_154.pmd
 mesh\mats\bucket_seat_omp_155.pmd
 mesh\mats\bucket_seat_omp_157.pmd
 mesh\mats\bucket_seat_omp_158.pmd
@@ -8466,6 +8510,7 @@ mesh\s2000_boot_wide1.d9m
 mesh\s2000_brklight_l.d9m
 mesh\s2000_brklight_r.d9m
 mesh\s2000_chass.d9m
+mesh\s2000_chass_ocd.ocd
 mesh\s2000_chass_wide1.d9m
 mesh\s2000_chass_wide2.d9m
 mesh\s2000_chass_wide3.d9m
@@ -8548,6 +8593,8 @@ mesh\s2000_sskirt_l.d9m
 mesh\s2000_sskirt_r.d9m
 mesh\s2000_sskirt_vs22_l.d9m
 mesh\s2000_sskirt_vs22_r.d9m
+mesh\s2000_sskirt_wide3_l.d9m
+mesh\s2000_sskirt_wide3_r.d9m
 mesh\s2000_stwheel.d9m
 mesh\s2000_wmir_l.d9m
 mesh\s2000_wmir_r.d9m
@@ -8897,6 +8944,7 @@ mesh\sky_r32_boot_vs1.d9m
 mesh\sky_r32_brklight_l.d9m
 mesh\sky_r32_brklight_r.d9m
 mesh\sky_r32_chass.d9m
+mesh\sky_r32_chass_ocd.ocd
 mesh\sky_r32_chass_wide1.d9m
 mesh\sky_r32_door_fl.d9m
 mesh\sky_r32_door_fr.d9m
@@ -8981,6 +9029,7 @@ mesh\sky_r33_boot_vs1.d9m
 mesh\sky_r33_brklight_l.d9m
 mesh\sky_r33_brklight_r.d9m
 mesh\sky_r33_chass.d9m
+mesh\sky_r33_chass_ocd.ocd
 mesh\sky_r33_door_fl.d9m
 mesh\sky_r33_door_fr.d9m
 mesh\sky_r33_doorskin_fl.d9m
@@ -9010,6 +9059,8 @@ mesh\sky_r33_hlight_l.d9m
 mesh\sky_r33_hlight_l_dead.d9m
 mesh\sky_r33_hlight_r.d9m
 mesh\sky_r33_hlight_r_dead.d9m
+mesh\sky_r33_hlight_vs1_l.d9m
+mesh\sky_r33_hlight_vs1_r.d9m
 mesh\sky_r33_interior.d9m
 mesh\sky_r33_lightson_fl.d9m
 mesh\sky_r33_lightson_fr.d9m
@@ -9031,6 +9082,8 @@ mesh\sky_r33_rlight_l.d9m
 mesh\sky_r33_rlight_l_dead.d9m
 mesh\sky_r33_rlight_r.d9m
 mesh\sky_r33_rlight_r_dead.d9m
+mesh\sky_r33_rlight_vs3_l.d9m
+mesh\sky_r33_rlight_vs3_r.d9m
 mesh\sky_r33_roof.d9m
 mesh\sky_r33_roof_vs1.d9m
 mesh\sky_r33_roof_vs2.d9m
@@ -9061,6 +9114,8 @@ mesh\sky_r33_spoiler_vs94.d9m
 mesh\sky_r33_spoiler_vs95.d9m
 mesh\sky_r33_sskirt_l.d9m
 mesh\sky_r33_sskirt_r.d9m
+mesh\sky_r33_sskirt_vs4_l.d9m
+mesh\sky_r33_sskirt_vs4_r.d9m
 mesh\sky_r33_stwheel.d9m
 mesh\sky_r33_wmir_l.d9m
 mesh\sky_r33_wmir_r.d9m
@@ -9223,6 +9278,8 @@ mesh\tiburon_hlight_l.d9m
 mesh\tiburon_hlight_l_dead.d9m
 mesh\tiburon_hlight_r.d9m
 mesh\tiburon_hlight_r_dead.d9m
+mesh\tiburon_hlight_vs1_l.d9m
+mesh\tiburon_hlight_vs1_r.d9m
 mesh\tiburon_interior.d9m
 mesh\tiburon_lightson_fl.d9m
 mesh\tiburon_lightson_fr.d9m
@@ -9268,11 +9325,15 @@ mesh\tiburon_spoiler_vs94.d9m
 mesh\tiburon_spoiler_vs95.d9m
 mesh\tiburon_sskirt_l.d9m
 mesh\tiburon_sskirt_r.d9m
+mesh\tiburon_sskirt_vs9_l.d9m
+mesh\tiburon_sskirt_vs9_r.d9m
 mesh\tiburon_sskirt_wide1_l.d9m
 mesh\tiburon_sskirt_wide1_r.d9m
 mesh\tiburon_stwheel.d9m
 mesh\tiburon_wmir_l.d9m
 mesh\tiburon_wmir_r.d9m
+mesh\tiburon_wmir_vs1_l.d9m
+mesh\tiburon_wmir_vs1_r.d9m
 mesh\tiburon_wmir_vs3_l.d9m
 mesh\tiburon_wmir_vs3_r.d9m
 mesh\torino_bigbore_twin_1.d9m
@@ -10672,9 +10733,12 @@ player01.def
 ponytail01.jsm
 portraitbobby.dx9thm
 portraitcrystal.dx9thm
+portraitjason.dx9thm
+portraitkarl.dx9thm
 portraitkeiko.dx9thm
 portraitken.dx9thm
 portraitleon.dx9thm
+portraitmarcus.dx9thm
 portraitnicolas.dx9thm
 portraitplayer.dx9thm
 portraittara.dx9thm
@@ -10731,14 +10795,19 @@ rbump_ocd.ocd
 replaymarkers\camreplaymarker_alps_alps_masterworld1.txt
 replaymarkers\camreplaymarker_alps_drift1_drift1.txt
 replaymarkers\camreplaymarker_downtown sanfrancisco_masterworld_route1.txt
+replaymarkers\camreplaymarker_downtown sanfrancisco_masterworld_route2.txt
 replaymarkers\camreplaymarker_downtown sanfrancisco_masterworld_route4.txt
+replaymarkers\camreplaymarker_downtown sanfrancisco_masterworld_route6.txt
 replaymarkers\camreplaymarker_london_circuit1.txt
 replaymarkers\camreplaymarker_london_circuit3.txt
 replaymarkers\camreplaymarker_london_circuit5.txt
 replaymarkers\camreplaymarker_paris_drift1.txt
 replaymarkers\camreplaymarker_rome_rome_masterworld_route1.txt
 replaymarkers\camreplaymarker_rome_rome_masterworld_route2.txt
+replaymarkers\camreplaymarker_rome_rome_masterworld_route3.txt
 replaymarkers\camreplaymarker_tokyo_circuit2.txt
+replaymarkers\camreplaymarker_tokyo_circuit3.txt
+replaymarkers\camreplaymarker_tokyo_drift2_drift2.txt
 retail\carsetup0_bslu.dat
 retail\carsetup0_dopx.dat
 retail\carsetup0_famq.dat
@@ -10788,11 +10857,14 @@ rome_masterworld_route1.bcp
 rome_masterworld_route1_aitweaks.txt
 rome_masterworld_route2.bcp
 rome_masterworld_route2_aitweaks.txt
+rome_masterworld_route3.bcp
+rome_masterworld_route3_aitweaks.txt
 romecircuit1.boh
 romecircuit1.d9m
 romecircuit2.boh
 romecircuit2.d9m
 romecircuit3.boh
+romecircuit3.d9m
 romecircuit4.boh
 romedrift8.boh
 romedriftcol.boh
@@ -10804,6 +10876,8 @@ russian\characters\commonfemale03\commonfemale03.cfg
 russian\characters\commonfemale03\commonfemale03.dat
 russian\characters\commonmale01\commonmale01.cfg
 russian\characters\commonmale01\commonmale01.dat
+russian\characters\commonmale02\commonmale02.cfg
+russian\characters\commonmale02\commonmale02.dat
 russian\characters\commonmale03\commonmale03.cfg
 russian\characters\commonmale03\commonmale03.dat
 russian\characters\unique01\unique01.cfg
@@ -10830,11 +10904,13 @@ rwhair.jsm
 sanfrancircuit1.boh
 sanfrancircuit1.d9m
 sanfrancircuit2.boh
+sanfrancircuit2.d9m
 sanfrancircuit3.boh
 sanfrancircuit4.boh
 sanfrancircuit4.d9m
 sanfrancircuit5.boh
 sanfrancircuit6.boh
+sanfrancircuit6.d9m
 scenes\jtv_betlost.txt
 scenes\jtv_betwon.txt
 scenes\jtv_chaindrift.txt
@@ -10891,9 +10967,14 @@ scenes\scenegridcameras_londoncircuit5.txt
 scenes\scenegridcameras_parisdrift1.txt
 scenes\scenegridcameras_romecircuit1.txt
 scenes\scenegridcameras_romecircuit2.txt
+scenes\scenegridcameras_romecircuit3.txt
 scenes\scenegridcameras_sanfrancircuit1.txt
+scenes\scenegridcameras_sanfrancircuit2.txt
 scenes\scenegridcameras_sanfrancircuit4.txt
+scenes\scenegridcameras_sanfrancircuit6.txt
 scenes\scenegridcameras_tokyocircuit2.txt
+scenes\scenegridcameras_tokyocircuit3.txt
+scenes\scenegridcameras_tokyodrift2.txt
 scenes\scenegridpreviewcameras.txt
 scenes\sceneintroalps.txt
 scenes\sceneintroalps_drift1.txt
@@ -10908,6 +10989,8 @@ scenes\sceneintropariscameras.txt
 scenes\sceneintrorome.txt
 scenes\sceneintroromecameras.txt
 scenes\sceneintrotokyo.txt
+scenes\sceneintrotokyo_drift2.txt
+scenes\sceneintrotokyo_drift2cameras.txt
 scenes\sceneintrotokyocameras.txt
 scenes\scenejudgecameras.txt
 scenes\scenemodding.txt
@@ -11010,6 +11093,7 @@ snowball10_emit_ocd.ocd
 snowdriftdead.d9m
 snowdriftdead_ocd.ocd
 snowpoint.ddt
+soc_11_dragon.ddt
 sounddef.txt
 sparkpoint.ddt
 stocky.def
@@ -11194,6 +11278,7 @@ textures\brake_disc_blur.ddt
 textures\brake_disc_drum.ddt
 textures\brake_glow.ddt
 textures\bucket_seat.ddt
+textures\bucket_seat_omp_154.ddt
 textures\bucket_seat_omp_155.ddt
 textures\bucket_seat_omp_157.ddt
 textures\bucket_seat_omp_158.ddt
@@ -12430,6 +12515,9 @@ textures\thumbnail_circuit_usa.ddt
 textures\thumbnail_drift_king_alps.ddt
 textures\thumbnail_drift_king_pinkslip_fre.ddt
 textures\thumbnail_drift_king_pinkslip_uk.ddt
+textures\thumbnail_drift_race_alps.ddt
+textures\thumbnail_drift_race_jap.ddt
+textures\thumbnail_drift_race_uk.ddt
 textures\tiburon_dials_colour.ddt
 textures\tiburon_enginebay.ddt
 textures\tiburon_interior.ddt
@@ -13107,6 +13195,7 @@ tokyocircuit1.boh
 tokyocircuit2.boh
 tokyocircuit2.d9m
 tokyocircuit3.boh
+tokyocircuit3.d9m
 tokyocircuit4.boh
 tokyocircuit5.boh
 topcolourcomponentdef.txt
@@ -14184,8 +14273,10 @@ windows\flyer_circuit_champ.ui
 windows\flyer_circuit_eliminator.ui
 windows\flyer_circuit_lms.ui
 windows\flyer_circuit_pinkslip.ui
+windows\flyer_circuit_tournament.ui
 windows\flyer_drift_king.ui
 windows\flyer_drift_king_pinkslip.ui
+windows\flyer_drift_race.ui
 windows\highscoretable.ui
 windows\hin_bet_lost.ui
 windows\hin_bet_won.ui
@@ -14408,8 +14499,10 @@ windows\russian\flyer_circuit_champ.ru
 windows\russian\flyer_circuit_eliminator.ru
 windows\russian\flyer_circuit_lms.ru
 windows\russian\flyer_circuit_pinkslip.ru
+windows\russian\flyer_circuit_tournament.ru
 windows\russian\flyer_drift_king.ru
 windows\russian\flyer_drift_king_pinkslip.ru
+windows\russian\flyer_drift_race.ru
 windows\russian\highscoretable.ru
 windows\russian\hin_chaindrift.ru
 windows\russian\hin_dna_achieved.ru
