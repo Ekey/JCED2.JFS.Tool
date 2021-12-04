@@ -22,7 +22,7 @@ namespace JCED2.Unpacker
                 Console.ResetColor();
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("[Examples]");
-                Console.WriteLine("    JCED2.Unpacker E:\\Games\\Juiced2\\scripts.dat D:\\Unpacked");
+                Console.WriteLine("    JCED2.Unpacker E:\\Games\\Juiced2\\scripts.jfs D:\\Unpacked");
                 Console.ResetColor();
                 return;
             }
@@ -32,7 +32,7 @@ namespace JCED2.Unpacker
 
             if (!File.Exists(m_JfsFile))
             {
-                Utils.iSetError("[ERROR]: Input DAT file -> " + m_JfsFile + " <- does not exist");
+                Utils.iSetError("[ERROR]: Input JFS file -> " + m_JfsFile + " <- does not exist");
                 return;
             }
 
